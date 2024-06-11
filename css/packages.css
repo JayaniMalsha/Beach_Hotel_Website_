@@ -1,0 +1,52 @@
+main {
+    padding: 20px;
+}
+
+h1{
+	text-align: center;
+    font-size: 60px
+} 
+.packages-section {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.packages-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.package {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	background-color: #CCFFFF;
+}
+
+.package h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.package p {
+    line-height: 1.6;
+}
+
+.package ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.package ul li {
+    margin: 10px 0;
+    padding-left: 20px;
+    text-indent: -20px;
+}
+
+.package ul li:before {
+    content: "• ";
+    color: #333;
+}
